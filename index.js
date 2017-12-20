@@ -1,1 +1,1 @@
-javascript:(function(){location.href='http://fakespot.com/analyze?url='+encodeURIComponent(location.href);})();
+javascript:(function(){window.open('http://fakespot.com/analyze?url='+encodeURIComponent(location.href),'_blank')})();
